@@ -7,7 +7,7 @@ Retrospectively, the dataset contained almost every mistake imaginable for a bui
 The end goal of the whole competition was to create a machine learning model that is capable of asking a what-if question. To simplify with an example, imagine investing a large sum of money into a refurbishment of a building to improve its energy efficiency, sustainability, etc. However, looking at the energy bill after the remodelling shows no clear improvement to the reduction of costs compared to the same month last year. Situations like these can be very discouraging to clients and hinder the possibility of future investments in green projects. At that moment, we input the parameters into the machine learning model (temperature, wind speed, direction, humility, etc.) and the algorithm displays to us how much the building would have consumed without the improvements. This allows for a clear comparison between the two costs
   
 
-The complete notebook can be accessed [here](https://nbviewer.jupyter.org/github/omglu93/energy_consumption_eda_prediction/blob/master/energy-consumption-eda-prediction.ipynb).
+The complete notebook can be accessed [here](https://nbviewer.jupyter.org/github/omglu93/ashrae_energy_eda/blob/master/the-great-energy-predicator-eda.ipynb).
 
 ![los](/images/img1.jpg)
 
@@ -16,10 +16,6 @@ The complete notebook can be accessed [here](https://nbviewer.jupyter.org/github
 
 The data is provided by ASHRAE
 
-- 2 features/columns
-- 145,000 rows of data
-
-
 # Requirements
 - Python 2.7 or Python 3.6
 - Jupyter Notebook
@@ -27,8 +23,7 @@ The data is provided by ASHRAE
 # License
 MIT. See the LICENSE file for the copyright notice.
 
-# References:
-
-1. https://arxiv.org/pdf/1603.02754v1.pdf
-2. https://en.wikipedia.org/wiki/Regional_transmission_organization_(North_America)
-3. https://www.pjm.com/about-pjm.aspx
+# References
+https://www.energy.gov/sites/prod/files/2016/09/f33/Building%20Data%20Analysis-09222016-Final.pdf
+https://www.dropbox.com/sh/yk9rvcef7fikv01/AADPt09uCWXc9VM0CFUaIsrNa?dl=0&preview=R-ESL-PA-94-06-01.pdf
+https://www.dropbox.com/sh/yk9rvcef7fikv01/AADPt09uCWXc9VM0CFUaIsrNa?dl=0&preview=R-ESL-PA-96-07-03-1.pdf
